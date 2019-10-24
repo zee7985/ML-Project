@@ -1,0 +1,25 @@
+Challenge - Air Pollution
+Air Pollution is Rising!
+Predicting Pollution Levels using Machine Learning
+It is winter time in Delhi so Cody decided to go for a walk to the news stand and on reaching was surprised to see the air quality index of Delhi in the newspaper . So he decided to collect the air samples of different locations and then took these samples to his lab where he extracted five features of the air he collected which can be used to predict the air quality index and combined it with the air quality index given in the newspapers. You are provided with the data collected by Cody and your job is to design a machine learning model which given the features extracted by Cody can predict air quality. 
+
+Data consist of three csv files :-
+Train.csv
+Testcsv
+Sample_Submission.csv
+Train:- The train data consists of five feature columns and one target column.All the feature columns are numeric and target value is also numeric.
+
+Test:- test data consist all the columns contained by train with the the exception of target column which u have to predict using the model trained on train data.
+
+Sample_Submission:- this file shows how your submission file must look like it consist of two columns one is id that is nothing but index and other is target which is the value predicted by your model.
+
+Before submitting please check the list below:
+
+The column names or headers of submission file must match with that given in sample submission file.
+
+Datatype of the columns of submission file must match with that of the given sample_submission file.
+
+The number of rows must be equal to given test cases and number of columns must be equal to the columns given in the sample submission file.
+
+Scoring & Leaderboard
+Maximum Score for this problem is 100 points. Your score is calculated using R2 Score (Multiplied by 100 & Rounded Off to Nearest Integer) your final score.
